@@ -1,0 +1,6 @@
+.hero-sec {
+	background: url("https://oit.netlify.app/herobg.png");
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
