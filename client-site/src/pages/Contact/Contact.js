@@ -7,7 +7,6 @@ const Contact = () => {
 	const [formData, setFormData] = useState({
 		name: "",
 		email: "",
-		number: "",
 		subject: "",
 		message: "",
 	});
@@ -52,7 +51,7 @@ const Contact = () => {
 				}
 			);
 
-		setFormData({ name: "", email: "", number: "", subject: "", message: "" });
+		setFormData({ name: "", email: "", subject: "", message: "" });
 	};
 
 	const handleChange = (event) => {
@@ -150,13 +149,13 @@ const Contact = () => {
 								Enter Details
 							</h1>
 							<div className="block xl:flex w-full flex-wrap justify-between mb-6">
-								<div className="w-2/4 max-w-xs mb-6 xl:mb-0">
-									<div className="flex flex-col">
+								<div className="w-full lg:w-2/5 mb-6 xl:mb-0">
+									<div className="flex flex-col w-full">
 										<label
 											htmlFor="name"
 											className="text-indigo-600 text-sm font-semibold leading-tight tracking-normal mb-2"
 										>
-											First Name
+											Your Name
 										</label>
 										<input
 											required
@@ -165,12 +164,12 @@ const Contact = () => {
 											type="text"
 											onChange={handleChange}
 											value={formData.name}
-											className="focus:outline-none focus:border focus:border-indigo-600 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
+											className="focus:outline-none focus:border focus:border-indigo-600 font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
 										/>
 									</div>
 								</div>
-								<div className="w-2/4 max-w-xs xl:flex xl:justify-end">
-									<div className="flex flex-col">
+								<div className="w-full lg:w-2/5 xl:flex xl:justify-end">
+									<div className="flex flex-col w-full">
 										<label
 											htmlFor="email"
 											className="text-indigo-600 text-sm font-semibold leading-tight tracking-normal mb-2"
@@ -184,14 +183,14 @@ const Contact = () => {
 											type="email"
 											onChange={handleChange}
 											value={formData.email}
-											className="focus:outline-none focus:border focus:border-indigo-600 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
+											className="focus:outline-none focus:border focus:border-indigo-600 font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
 										/>
 									</div>
 								</div>
 							</div>
 							<div className="block xl:flex w-full flex-wrap justify-between mb-6">
-								<div className="w-2/4 max-w-xs mb-6 xl:mb-0">
-									<div className="flex flex-col">
+								<div className="w-full mb-6 xl:mb-0">
+									<div className="flex flex-col w-full w-full">
 										<label
 											htmlFor="subject"
 											className="text-indigo-600 text-sm font-semibold leading-tight tracking-normal mb-2"
@@ -205,31 +204,13 @@ const Contact = () => {
 											type="text"
 											onChange={handleChange}
 											value={formData.subject}
-											className="focus:outline-none focus:border focus:border-indigo-600 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
-										/>
-									</div>
-								</div>
-								<div className="w-2/4 max-w-xs xl:flex xl:justify-end">
-									<div className="flex flex-col">
-										<label
-											htmlFor="phone"
-											className="text-indigo-600 text-sm font-semibold leading-tight tracking-normal mb-2"
-										>
-											Phone Number
-										</label>
-										<input
-											id="phone"
-											name="phone"
-											type="text"
-											onChange={handleChange}
-											value={formData.number}
-											className="focus:outline-none focus:border focus:border-indigo-600 font-normal w-64 h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
+											className="focus:outline-none focus:border focus:border-indigo-600 font-normal w-full h-10 flex items-center pl-3 text-sm border-gray-300 rounded border"
 										/>
 									</div>
 								</div>
 							</div>
 							<div className="w-full mt-6 pb-2">
-								<div className="flex flex-col">
+								<div className="flex flex-col w-full">
 									<label
 										className="text-sm font-semibold text-indigo-600 mb-2"
 										htmlFor="message"
