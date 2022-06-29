@@ -1,0 +1,20 @@
+[
+	{
+		"id": 1,
+		"name": "Drone Shop",
+		"image": "https://picsum.photos/533/350",
+		"liveLink": "https://drone-shop-react.web.app/",
+		"codeLink": "https://github.com/coders-sohan/drone-shop-react/tree/main/main-site",
+		"serverLink": "https://github.com/coders-sohan/drone-shop-react/tree/main/server-site",
+		"category": "react JS, tailwind CSS, firebase"
+	},
+	{
+		"id": 1,
+		"name": "Mobile Shop",
+		"image": "https://picsum.photos/533/352",
+		"liveLink": "https://mobile-shop-react.web.app/",
+		"codeLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/client-site",
+		"serverLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/server-site",
+		"category": "react JS, tailwind CSS, firebase"
+	}
+]
