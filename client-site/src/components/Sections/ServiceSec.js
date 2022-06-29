@@ -25,7 +25,7 @@ const ServiceSec = () => {
 					</div>
 					<div className="flex flex-wrap">
 						{services.map((service) => (
-							<Service key={service._id} service={service} />
+							<Service service={service} />
 						))}
 					</div>
 					<div className="mt-10 text-center">

@@ -9,9 +9,45 @@
 		"category": "react JS, tailwind CSS, firebase"
 	},
 	{
-		"id": 1,
+		"id": 2,
 		"name": "Mobile Shop",
 		"image": "https://picsum.photos/533/352",
+		"liveLink": "https://mobile-shop-react.web.app/",
+		"codeLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/client-site",
+		"serverLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/server-site",
+		"category": "react JS, tailwind CSS, firebase"
+	},
+	{
+		"id": 3,
+		"name": "Mobile Shop",
+		"image": "https://picsum.photos/538/352",
+		"liveLink": "https://mobile-shop-react.web.app/",
+		"codeLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/client-site",
+		"serverLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/server-site",
+		"category": "react JS, tailwind CSS, firebase"
+	},
+	{
+		"id": 4,
+		"name": "Mobile Shop",
+		"image": "https://picsum.photos/536/352",
+		"liveLink": "https://mobile-shop-react.web.app/",
+		"codeLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/client-site",
+		"serverLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/server-site",
+		"category": "react JS, tailwind CSS, firebase"
+	},
+	{
+		"id": 5,
+		"name": "Mobile Shop",
+		"image": "https://picsum.photos/532/352",
+		"liveLink": "https://mobile-shop-react.web.app/",
+		"codeLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/client-site",
+		"serverLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/server-site",
+		"category": "react JS, tailwind CSS, firebase"
+	},
+	{
+		"id": 6,
+		"name": "Mobile Shop",
+		"image": "https://picsum.photos/531/352",
 		"liveLink": "https://mobile-shop-react.web.app/",
 		"codeLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/client-site",
 		"serverLink": "https://github.com/coders-sohan/mobile-shop-react/tree/main/server-site",

@@ -4,12 +4,15 @@ import code from "../../assets/images/code.svg";
 import server from "../../assets/images/server.svg";
 
 const ProjectsCard = (props) => {
-	const { name, image, liveLink, codeLink, serverLink, category } =
+	const { id, name, image, liveLink, codeLink, serverLink, category } =
 		props.project;
 
 	return (
 		<>
-			<div className="group group-hover:bg-opacity-100 transition duration-500 relative bg-indigo-500 flex justify-center items-center shadow-xl">
+			<div
+				key={id}
+				className="group group-hover:bg-opacity-100 transition duration-500 relative bg-indigo-500 flex justify-center items-center shadow-xl"
+			>
 				<img
 					className="group-hover:opacity-80 transition duration-500"
 					src={image}

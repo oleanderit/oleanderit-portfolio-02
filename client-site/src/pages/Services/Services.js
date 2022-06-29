@@ -11,6 +11,7 @@ const Services = () => {
 			.then((res) => res.json())
 			.then((data) => setServices(data));
 	}, []);
+
 	return (
 		<>
 			<div className="container mx-auto px-4 md:px:14 lg:px-24 py-12 md:py-16 lg:pt-20 lg:pb-8">
@@ -23,7 +24,7 @@ const Services = () => {
 				</div>
 				<div className="flex flex-wrap">
 					{services.map((service) => (
-						<Service key={service._id} service={service} />
+						<Service service={service} />
 					))}
 				</div>
 			</div>
