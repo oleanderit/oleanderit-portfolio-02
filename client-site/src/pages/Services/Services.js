@@ -1,12 +1,13 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Service from "../../components/Service/Service";
+import serviceData from "../../assets/data/services.JSON";
 
 const Services = () => {
 	const [services, setServices] = useState([]);
 
 	useEffect(() => {
-		fetch("https://mysterious-beyond-20514.herokuapp.com/services")
+		fetch(serviceData)
 			.then((res) => res.json())
 			.then((data) => setServices(data));
 	}, []);
@@ -40,7 +41,7 @@ const Services = () => {
 						<div className="inline-flex rounded-md shadow">
 							<Link
 								to="/contact"
-								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-700"
+								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-800 transition-all ease-linear duration-300 hover:shadow-lg hover:shadow-indigo-400"
 							>
 								Contact now
 							</Link>

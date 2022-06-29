@@ -1,7 +1,7 @@
 const Testimonial = () => {
 	return (
 		<>
-			<div className="bg-gray-50">
+			<div className="">
 				<div className="container mx-auto px-4 md:px:14 lg:px-24 py-8 md:py-10 lg:py-12">
 					<div className="text-center">
 						<p className="text-xl">Testimonial</p>
