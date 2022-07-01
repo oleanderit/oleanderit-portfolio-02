@@ -2,6 +2,7 @@ import { HashLink } from "react-router-hash-link";
 
 const Service = (props) => {
 	const { _id, name, imgUrl, desc, badge } = props.service;
+	
 	return (
 		<>
 			<div
