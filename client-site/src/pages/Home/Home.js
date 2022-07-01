@@ -8,11 +8,13 @@ import "./Home.css";
 const Home = () => {
 	return (
 		<>
-			<HeroSec />
-			<ServiceSec />
-			<FAQs />
-			<ServicesClientsData />
-			<Testimonial />
+			<div id="eng">
+				<HeroSec />
+				<ServiceSec />
+				<FAQs />
+				<ServicesClientsData />
+				<Testimonial />
+			</div>
 		</>
 	);
 };

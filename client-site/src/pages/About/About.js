@@ -3,7 +3,10 @@ import ServicesClientsData from "../../components/Sections/ServicesClientsData";
 const About = () => {
 	return (
 		<>
-			<div className="container mx-auto px-4 md:px:14 lg:px-24 py-12 md:py-16 lg:py-16">
+			<div
+				id="eng"
+				className="container mx-auto px-4 md:px:14 lg:px-24 py-12 md:py-16 lg:py-16"
+			>
 				<div className="flex flex-col lg:flex-row justify-between gap-8">
 					<div className="w-full lg:w-5/12 flex flex-col justify-center">
 						<h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">

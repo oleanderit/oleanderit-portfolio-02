@@ -13,7 +13,7 @@ const Projects = () => {
 
 	return (
 		<>
-			<div className="bg-slate-50">
+			<div id="eng" className="bg-slate-50">
 				<div className="container mx-auto px-4 md:px:14 lg:px-24 pt-8 md:pt-10 lg:pt-12">
 					<div className="text-center mt-10">
 						<p className="text-xl">Projects</p>

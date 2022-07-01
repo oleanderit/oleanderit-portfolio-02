@@ -14,7 +14,10 @@ const Services = () => {
 
 	return (
 		<>
-			<div className="container mx-auto px-4 md:px:14 lg:px-24 py-12 md:py-16 lg:pt-20 lg:pb-8">
+			<div
+				id="eng"
+				className="container mx-auto px-4 md:px:14 lg:px-24 py-12 md:py-16 lg:pt-20 lg:pb-8"
+			>
 				<div className="text-center">
 					<p className="text-xl">Services</p>
 					<h1 className="text-lg md:text-xl lg:text-3xl font-extrabold mt-2 mb-6 md:mb-8 lg:mb-16">

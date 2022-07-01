@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,68 +9,73 @@ const Navbar = () => {
 			<div className="w-full fixed z-50 bg-gray-50 shadow">
 				<div className="container px-4 md:px:6 lg:px-8 py-3 mx-auto">
 					<div className="relative flex items-center justify-between">
-						<NavLink to="/" className="inline-flex items-center">
+						<HashLink smooth to="/#eng" className="inline-flex items-center">
 							<span className="text-blue-600 text-2xl">Oleander IT</span>
-						</NavLink>
+						</HashLink>
 						<ul className="flex items-center hidden space-x-8 lg:flex gap-4">
 							<li>
-								<NavLink
-									to="/about"
+								<HashLink
+									smooth
+									to="/about/#eng"
 									className="text-base font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-gray-900"
 									activeClassName="text-gray-900"
 								>
 									About us
-								</NavLink>
+								</HashLink>
 							</li>
 							<li>
-								<NavLink
-									to="/services"
+								<HashLink
+									smooth
+									to="/services/#eng"
 									className="text-base font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-gray-900"
 									activeClassName="text-gray-900"
 								>
 									Services
-								</NavLink>
+								</HashLink>
 							</li>
 							<li>
-								<NavLink
-									to="/projects"
+								<HashLink
+									smooth
+									to="/projects/#eng"
 									className="text-base font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-gray-900"
 									activeClassName="text-gray-900"
 								>
 									Projects
-								</NavLink>
+								</HashLink>
 							</li>
 							<li>
-								<NavLink
-									to="/blogs"
+								<HashLink
+									smooth
+									to="/blogs/#eng"
 									className="text-base font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-gray-900"
 									activeClassName="text-gray-900"
 								>
 									Blogs
-								</NavLink>
+								</HashLink>
 							</li>
 							<li>
-								<NavLink
-									to="/contact"
+								<HashLink
+									smooth
+									to="/contact/#eng"
 									className="text-base font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-gray-900"
 									activeClassName="text-gray-900"
 								>
 									Contact
-								</NavLink>
+								</HashLink>
 							</li>
 							{/* <li>
-								<NavLink
+								<HashLink smooth 
 									to="/home"
 									className="text-base font-medium tracking-wide text-gray-500 transition-colors duration-200 hover:text-gray-900"
 									activeClassName="text-gray-900"
 								>
 									Admin
-								</NavLink>
+								</HashLink>
 							</li> */}
 						</ul>
 						{/* <ul className="flex items-center hidden space-x-4 lg:flex">
 							<li>
-								<NavLink
+								<HashLink smooth 
 									to="/login"
 									className="inline-flex items-center justify-center h-10 px-4 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-gray-800 hover:bg-gray-600 focus:shadow-outline focus:outline-none"
 								>
@@ -78,16 +83,16 @@ const Navbar = () => {
 									<span className="mt-1 ml-2">
 										<i className="fas fa-sign-in-alt"></i>
 									</span>
-								</NavLink>
+								</HashLink>
 							</li>
 							<li>
-								<NavLink
+								<HashLink smooth 
 									to="/register"
 									className="inline-flex items-center justify-center h-10 px-6 font-medium tracking-wide text-gray-900 transition duration-200 rounded border border-gray-300 hover:border-gray-700 focus:shadow-outline focus:outline-none"
 									
 								>
 									Register
-								</NavLink>
+								</HashLink>
 							</li>
 						</ul> */}
 						<div className="lg:hidden">
@@ -115,11 +120,15 @@ const Navbar = () => {
 									<div className="p-5 bg-white border rounded shadow-sm">
 										<div className="flex items-center justify-between mb-4">
 											<div className="block mx-auto">
-												<NavLink to="/" className="inline-flex items-center">
+												<HashLink
+													smooth
+													to="/#eng"
+													className="inline-flex items-center"
+												>
 													<span className="text-blue-600 text-2xl">
 														Oleander IT
 													</span>
-												</NavLink>
+												</HashLink>
 											</div>
 											<div>
 												<button
@@ -141,71 +150,76 @@ const Navbar = () => {
 										<nav>
 											<ul className="space-y-4 text-center">
 												<li className="pt-5 pb-3">
-													<NavLink
-														to="/about"
+													<HashLink
+														smooth
+														to="/about/#eng"
 														className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-gray-900"
 														activeClassName="text-gray-900"
 													>
 														About us
-													</NavLink>
+													</HashLink>
 												</li>
 												<li className="py-3">
-													<NavLink
-														to="/services"
+													<HashLink
+														smooth
+														to="/services/#eng"
 														className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-gray-900"
 														activeClassName="text-gray-900"
 													>
 														Services
-													</NavLink>
+													</HashLink>
 												</li>
 												<li className="py-3">
-													<NavLink
-														to="/projects"
+													<HashLink
+														smooth
+														to="/projects/#eng"
 														className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-gray-900"
 														activeClassName="text-gray-900"
 													>
 														Projects
-													</NavLink>
+													</HashLink>
 												</li>
 												<li className="py-3">
-													<NavLink
-														to="/blogs"
+													<HashLink
+														smooth
+														to="/blogs/#eng"
 														className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-gray-900"
 														activeClassName="text-gray-900"
 													>
 														Blogs
-													</NavLink>
+													</HashLink>
 												</li>
 												<li className="py-3">
-													<NavLink
-														to="/contact"
+													<HashLink
+														smooth
+														to="/contact/#eng"
 														className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-gray-900"
 														activeClassName="text-gray-900"
 													>
 														Contact
-													</NavLink>
+													</HashLink>
 												</li>
 												{/* <li className="py-3">
-													<NavLink
+													<HashLink smooth 
 														to="/home"
 														
 														className="font-medium tracking-wide text-gray-600 transition-colors duration-200 hover:text-gray-900"
 														activeClassName="text-gray-900"
 													>
 														Admin
-													</NavLink>
+													</HashLink>
 												</li> */}
 												{/* <li>
-													<NavLink
+													<HashLink smooth 
 														to="/register"
 														className="inline-flex items-center justify-center w-3/4 h-10 px-6 font-medium tracking-wide text-gray-900 transition duration-200 rounded border border-gray-300 hover:border-gray-700 focus:shadow-outline focus:outline-none"
 													
 													>
 														Register
-													</NavLink>
+													</HashLink>
 												</li> */}
 												{/* <li>
-													<NavLink
+													<HashLink smooth 
 														to="/login"
 														className="inline-flex items-center justify-center w-3/4 h-10 px-5 font-medium tracking-wide text-white transition duration-200 rounded bg-gray-800 hover:bg-gray-600 focus:shadow-outline focus:outline-none"
 													>
@@ -213,7 +227,7 @@ const Navbar = () => {
 														<span className="mt-1 ml-2">
 															<i className="fas fa-sign-in-alt"></i>
 														</span>
-													</NavLink>
+													</HashLink>
 												</li> */}
 											</ul>
 										</nav>

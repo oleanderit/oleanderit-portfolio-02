@@ -1,7 +1,10 @@
 const Blogs = () => {
 	return (
 		<>
-			<div className="bg-slate-50 flex justify-center items-center h-screen">
+			<div
+				id="eng"
+				className="bg-slate-50 flex justify-center items-center h-screen"
+			>
 				<div className="container mx-auto px-4 md:px:14 lg:px-24 py-8 md:py-10 lg:py-12">
 					<div className="text-center mt-10">
 						<p className="text-xl">Blogs</p>

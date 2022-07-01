@@ -3,42 +3,23 @@ import { useParams } from "react-router-dom";
 
 const SingleService = () => {
 	const [singleService, setSingleService] = useState([]);
-	const [singleData, setSingleData] = useState({});
 
 	const { id } = useParams();
 
-	console.log(id);
-
 	useEffect(() => {
-		const url = `http://localhost:4000/services`;
+		const url = `http://localhost:4000/services/${id}`;
 		fetch(url)
 			.then((res) => res.json())
 			.then((data) => setSingleService(data));
 	}, [id]);
 
-	// console.log(singleService);
-
-	// const singleData = singleService.filter((obj) => {
-	// 	if (obj.id === id) {
-	// 		return obj;
-	// 	}
-	// });
-
-	useEffect(() => {
-		const singleData = singleService.find((obj) => obj?.id === 2);
-		setSingleData(singleData);
-	}, [singleService]);
-
-	console.log(singleData);
-
 	return (
 		<>
-			<section id="home" className="bg-white">
+			<section id="eng" className="bg-white">
 				<div className="container mx-auto px-4 md:px:14 lg:px-24 py-12 md:py-16 lg:py-24">
 					<div className="">
-						<span>{singleData?.name}</span>
 						<h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900">
-							Designed for business teams like yours
+							{singleService?.name} service pricing
 						</h2>
 						<p className="mb-5 font-light text-gray-500 sm:text-lg">
 							Here at Oleander IT we focus on markets where technology,

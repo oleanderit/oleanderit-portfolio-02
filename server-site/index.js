@@ -7,6 +7,7 @@ require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
+const objectId = require("mongodb").ObjectId;
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.i1abc.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, {
@@ -36,6 +37,14 @@ async function run() {
 			const services = servicesDataCollection.find({});
 			const results = await services.toArray();
 			res.send(results);
+		});
+
+		// get single service data
+		app.get("/services/:id", async (req, res) => {
+			const id = req.params.id;
+			const query = { _id: objectId(id) };
+			const result = await servicesDataCollection.findOne(query);
+			res.json(result);
 		});
 
 		// get projects data
