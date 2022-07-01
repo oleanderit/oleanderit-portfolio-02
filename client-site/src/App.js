@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
@@ -12,6 +13,8 @@ import Projects from "./pages/projects/Projects";
 import Services from "./pages/Services/Services";
 
 function App() {
+	// const [isLoading, setIsLoading] = useState(true);
+
 	return (
 		<>
 			<Navbar />

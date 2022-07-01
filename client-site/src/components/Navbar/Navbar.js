@@ -43,7 +43,7 @@ const Navbar = () => {
 									Projects
 								</HashLink>
 							</li>
-							<li>
+							{/* <li>
 								<HashLink
 									smooth
 									to="/blogs/#eng"
@@ -52,7 +52,7 @@ const Navbar = () => {
 								>
 									Blogs
 								</HashLink>
-							</li>
+							</li> */}
 							<li>
 								<HashLink
 									smooth
@@ -179,7 +179,7 @@ const Navbar = () => {
 														Projects
 													</HashLink>
 												</li>
-												<li className="py-3">
+												{/* <li className="py-3">
 													<HashLink
 														smooth
 														to="/blogs/#eng"
@@ -188,7 +188,7 @@ const Navbar = () => {
 													>
 														Blogs
 													</HashLink>
-												</li>
+												</li> */}
 												<li className="py-3">
 													<HashLink
 														smooth
