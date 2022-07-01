@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import SingleProject from "./components/SingleProject/SingleProject";
 import SingleService from "./components/SingleService/SingleService";
 import About from "./pages/About/About";
 import Blogs from "./pages/Blogs/Blogs";
@@ -19,7 +20,8 @@ function App() {
 				<Route path="/about" element={<About />} />
 				<Route path="/services" element={<Services />} />
 				<Route path="/service/details/:id" element={<SingleService />} />
-				<Route path="/Projects" element={<Projects />} />
+				<Route path="/projects" element={<Projects />} />
+				<Route path="/project/details/:id" element={<SingleProject />} />
 				<Route path="/blogs" element={<Blogs />} />
 				<Route path="/contact" element={<Contact />} />
 			</Routes>

@@ -54,6 +54,14 @@ async function run() {
 			res.send(results);
 		});
 
+		// get single project data
+		app.get("/projects/:id", async (req, res) => {
+			const id = req.params.id;
+			const query = { _id: objectId(id) };
+			const result = await projectsDataCollection.findOne(query);
+			res.json(result);
+		});
+
 		console.log("Database connected");
 	} finally {
 		// await client.close();

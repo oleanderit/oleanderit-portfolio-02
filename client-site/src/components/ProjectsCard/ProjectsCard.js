@@ -2,15 +2,16 @@ import React from "react";
 import liveSite from "../../assets/images/live-site.svg";
 import code from "../../assets/images/code.svg";
 import server from "../../assets/images/server.svg";
+import { HashLink } from "react-router-hash-link";
 
 const ProjectsCard = (props) => {
-	const { id, name, image, liveLink, codeLink, serverLink, category } =
+	const { _id, name, image, liveLink, codeLink, serverLink, category } =
 		props.project;
 
 	return (
 		<>
 			<div
-				key={id}
+				key={_id}
 				className="group group-hover:bg-opacity-100 transition duration-500 relative bg-indigo-500 flex justify-center items-center shadow-xl"
 			>
 				<img
@@ -21,7 +22,9 @@ const ProjectsCard = (props) => {
 				<div className="absolute sm:top-8 top-4 left-4 sm:left-8 flex justify-start items-start flex-col space-y-2 bg-slate-100 px-5 py-3 rounded-md">
 					<div>
 						<p className="group-hover:opacity-90 transition duration-500 text-xl font-semibold leading-5 text-gray-700">
-							{name}
+							<HashLink to={`/project/details/${_id}#eng`} smooth>
+								{name}
+							</HashLink>
 						</p>
 					</div>
 					<div>
@@ -35,6 +38,7 @@ const ProjectsCard = (props) => {
 						href={liveLink}
 						target="_blank"
 						className="bg-indigo-500 hover:bg-indigo-800 p-2 rounded-full transition-all ease-linear duration-300"
+						rel="noreferrer"
 					>
 						<img className="h-6 w-6" src={liveSite} alt="icon" />
 					</a>
@@ -42,6 +46,7 @@ const ProjectsCard = (props) => {
 						href={codeLink}
 						target="_blank"
 						className="bg-indigo-500 hover:bg-indigo-800 p-2 rounded-full transition-all ease-linear duration-300"
+						rel="noreferrer"
 					>
 						<img className="h-6 w-6" src={code} alt="icon" />
 					</a>
@@ -49,6 +54,7 @@ const ProjectsCard = (props) => {
 						href={serverLink}
 						target="_blank"
 						className="bg-indigo-500 hover:bg-indigo-800 p-2 rounded-full transition-all ease-linear duration-300"
+						rel="noreferrer"
 					>
 						<img className="h-6 w-6" src={server} alt="icon" />
 					</a>
