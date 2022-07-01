@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import ProjectsCard from "../../components/ProjectsCard/ProjectsCard";
-import ProjectsData from "../../assets/data/projects.JSON";
 
 const Projects = () => {
 	const [projects, setProjects] = useState([]);
 
 	useEffect(() => {
-		fetch(ProjectsData)
+		const url = `http://localhost:4000/projects`;
+		fetch(url)
 			.then((res) => res.json())
 			.then((data) => setProjects(data));
 	}, []);

@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import serviceData from "../../assets/data/services.JSON";
 
 const SingleService = () => {
 	const [singleService, setSingleService] = useState([]);
@@ -11,7 +10,8 @@ const SingleService = () => {
 	console.log(id);
 
 	useEffect(() => {
-		fetch(serviceData)
+		const url = `http://localhost:4000/services`;
+		fetch(url)
 			.then((res) => res.json())
 			.then((data) => setSingleService(data));
 	}, [id]);

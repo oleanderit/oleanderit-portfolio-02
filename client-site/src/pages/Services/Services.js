@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Service from "../../components/Service/Service";
-import serviceData from "../../assets/data/services.JSON";
 
 const Services = () => {
 	const [services, setServices] = useState([]);
 
 	useEffect(() => {
-		fetch(serviceData)
+		const url = `http://localhost:4000/services`;
+		fetch(url)
 			.then((res) => res.json())
 			.then((data) => setServices(data));
 	}, []);
@@ -24,7 +24,7 @@ const Services = () => {
 				</div>
 				<div className="flex flex-wrap">
 					{services.map((service) => (
-						<Service service={service} />
+						<Service key={service._id} service={service} />
 					))}
 				</div>
 			</div>

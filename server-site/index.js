@@ -2,13 +2,13 @@ const express = require("express");
 const { MongoClient } = require("mongodb");
 const app = express();
 const cors = require("cors");
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 require("dotenv").config();
 
 app.use(cors());
 app.use(express.json());
 
-const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.zajjr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.i1abc.mongodb.net/?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
@@ -27,22 +27,22 @@ client.connect((err) => {
 async function run() {
 	try {
 		await client.connect();
-		const database = client.db("LuxuryLiving");
-		const projectsCollection = database.collection("projects");
-		const servicesCollection = database.collection("services");
-
-		// get projects data
-		app.get("/projects", async (req, res) => {
-			const projects = projectsCollection.find({});
-			const projectsData = await projects.toArray();
-			res.send(projectsData);
-		});
+		const database = client.db("Oleander_IT");
+		const servicesDataCollection = database.collection("servicesData");
+		const projectsDataCollection = database.collection("projectsData");
 
 		// get services data
 		app.get("/services", async (req, res) => {
-			const services = servicesCollection.find({});
-			const servicesData = await services.toArray();
-			res.send(servicesData);
+			const services = servicesDataCollection.find({});
+			const results = await services.toArray();
+			res.send(results);
+		});
+
+		// get projects data
+		app.get("/projects", async (req, res) => {
+			const projects = projectsDataCollection.find({});
+			const results = await projects.toArray();
+			res.send(results);
 		});
 
 		console.log("Database connected");

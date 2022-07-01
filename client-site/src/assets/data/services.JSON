@@ -1,55 +1,47 @@
 [
 	{
-		"id": 1,
 		"imgUrl": "https://oit.netlify.app/services/s1.png",
 		"name": "Web Design",
 		"pricing": "100",
 		"desc": "Create a fully customized, professional, mobile-friendly and search engine optimized website to reach your customers more efficiently and build strong relationships with them."
 	},
 	{
-		"id": 2,
 		"imgUrl": "https://oit.netlify.app/services/s2.png",
 		"name": "Web Development",
 		"pricing": "100",
 		"desc": "By creating client-centric, customer-centric website solutions that deliver real business results, innovative web developers help brands in an ever-changing digital landscape."
 	},
 	{
-		"id": 3,
 		"imgUrl": "https://oit.netlify.app/services/s4.png",
 		"name": "Digital Marketing",
 		"pricing": "100",
 		"desc": "Increase your sales worldwide and lose your competition by promoting your business through social media marketing with our expert staff."
 	},
 	{
-		"id": 4,
 		"imgUrl": "https://oit.netlify.app/services/s3.png",
 		"name": "Wordpress Website",
 		"pricing": "100",
 		"desc": "From content creation to admin, there are many areas for site maintenance through updates. These services offer theme changes, site backups and more."
 	},
 	{
-		"id": 5,
 		"imgUrl": "https://oit.netlify.app/services/s9.png",
 		"name": "Graphic Design",
 		"pricing": "100",
 		"desc": "Create the most attractive and imaginative designs for your business to visually present your products and services to clients."
 	},
 	{
-		"id": 6,
 		"imgUrl": "https://oit.netlify.app/services/s6.png",
 		"name": "Apps Development",
 		"pricing": "100",
 		"desc": "Create sophisticated and maintainable web applications for your business and projects through our expert staff."
 	},
 	{
-		"id": 7,
 		"imgUrl": "https://oit.netlify.app/services/s5.png",
 		"name": "SEO",
 		"pricing": "100",
 		"desc": "Rank your website at the top of any search engine (Google) and improve the quality and quantity of visitors to your website with the use of search engine optimization services."
 	},
 	{
-		"id": 8,
 		"imgUrl": "https://oit.netlify.app/services/s7.png",
 		"name": "Software Development",
 		"pricing": "100",
@@ -57,7 +49,6 @@
 		"badge": "This services is offline now."
 	},
 	{
-		"id": 9,
 		"imgUrl": "https://oit.netlify.app/services/s8.png",
 		"name": "Cyber Security",
 		"pricing": "100",
