@@ -11,6 +11,8 @@ import Contact from "./pages/Contact/Contact";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/projects/Projects";
 import Services from "./pages/Services/Services";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function App() {
 	// const [isLoading, setIsLoading] = useState(true);

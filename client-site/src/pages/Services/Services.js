@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import Service from "../../components/Service/Service";
 
 const Services = () => {
@@ -43,12 +44,12 @@ const Services = () => {
 					</h2>
 					<div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
 						<div className="inline-flex rounded-md shadow">
-							<Link
-								to="/contact"
+							<HashLink
+								to="/contact#eng"
 								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-800 transition-all ease-linear duration-300 hover:shadow-lg hover:shadow-indigo-400"
 							>
 								Contact now
-							</Link>
+							</HashLink>
 						</div>
 					</div>
 				</div>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const SingleService = () => {
 	const [singleService, setSingleService] = useState([]);
@@ -30,16 +31,16 @@ const SingleService = () => {
 					<div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0 mt-10">
 						{/* Pricing Card */}
 						<div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow xl:p-8">
-							<h3 className="mb-4 text-2xl font-semibold">Starter</h3>
+							<h3 className="mb-4 text-2xl font-semibold">Silver</h3>
 							<p className="font-light text-gray-500 sm:text-lg">
 								Best option for personal use & for your next project.
 							</p>
 							<div className="flex justify-center items-baseline my-8">
-								<span className="mr-2 text-5xl font-extrabold">$29</span>
-								<span className="text-gray-500text-gray-400">/month</span>
+								<span className="mr-2 text-5xl font-extrabold">$100</span>
+								<span className="text-gray-600">/ BDT- 8,999</span>
 							</div>
 							{/* List */}
-							<ul role="list" className="mb-8 space-y-4 text-left">
+							<ul className="mb-8 space-y-4 text-left">
 								<li className="flex items-center space-x-3">
 									{/* Icon */}
 									<svg
@@ -131,7 +132,7 @@ const SingleService = () => {
 								</li>
 							</ul>
 							<a
-								href="#"
+								href="/"
 								className="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
 							>
 								Get started
@@ -139,16 +140,16 @@ const SingleService = () => {
 						</div>
 						{/* Pricing Card */}
 						<div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow xl:p-8">
-							<h3 className="mb-4 text-2xl font-semibold">Company</h3>
+							<h3 className="mb-4 text-2xl font-semibold">Gold</h3>
 							<p className="font-light text-gray-500 sm:text-lg">
 								Relevant for multiple users, extended & premium support.
 							</p>
 							<div className="flex justify-center items-baseline my-8">
-								<span className="mr-2 text-5xl font-extrabold">$99</span>
-								<span className="text-gray-500">/month</span>
+								<span className="mr-2 text-5xl font-extrabold">$235</span>
+								<span className="text-gray-600">/ BDT- 19,999</span>
 							</div>
 							{/* List */}
-							<ul role="list" className="mb-8 space-y-4 text-left">
+							<ul className="mb-8 space-y-4 text-left">
 								<li className="flex items-center space-x-3">
 									{/* Icon */}
 									<svg
@@ -240,7 +241,7 @@ const SingleService = () => {
 								</li>
 							</ul>
 							<a
-								href="#"
+								href="/"
 								className="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
 							>
 								Get started
@@ -248,16 +249,16 @@ const SingleService = () => {
 						</div>
 						{/* Pricing Card */}
 						<div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow xl:p-8">
-							<h3 className="mb-4 text-2xl font-semibold">Enterprise</h3>
+							<h3 className="mb-4 text-2xl font-semibold">Platinum</h3>
 							<p className="font-light text-gray-500 sm:text-lg">
 								Best for large scale uses and extended redistribution rights.
 							</p>
 							<div className="flex justify-center items-baseline my-8">
-								<span className="mr-2 text-5xl font-extrabold">$499</span>
-								<span className="text-gray-500">/month</span>
+								<span className="mr-2 text-5xl font-extrabold">$550</span>
+								<span className="text-gray-600">/ BDT- 39,999</span>
 							</div>
 							{/* List */}
-							<ul role="list" className="mb-8 space-y-4 text-left">
+							<ul className="mb-8 space-y-4 text-left">
 								<li className="flex items-center space-x-3">
 									{/* Icon */}
 									<svg
@@ -349,7 +350,7 @@ const SingleService = () => {
 								</li>
 							</ul>
 							<a
-								href="#"
+								href="/"
 								className="text-white bg-indigo-600 hover:bg-indigo-700 focus:ring-4 focus:ring-indigo-200 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
 							>
 								Get started
@@ -358,6 +359,28 @@ const SingleService = () => {
 					</div>
 				</div>
 			</section>
+			<div className="bg-gray-50">
+				<div className="max-w-7xl mx-auto py-12 px-14 lg:py-16 lg:px-24 lg:flex lg:items-center lg:justify-between">
+					<h2 className="text-lg md:text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+						<span className="block my-3">
+							Do you want to place a custom order?
+						</span>
+						<span className="block my-3 text-gray-800">
+							Just leave a message for us
+						</span>
+					</h2>
+					<div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+						<div className="inline-flex rounded-md shadow">
+							<HashLink
+								to="/contact#eng"
+								className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-800 transition-all ease-linear duration-300 hover:shadow-lg hover:shadow-indigo-400"
+							>
+								Contact now
+							</HashLink>
+						</div>
+					</div>
+				</div>
+			</div>
 		</>
 	);
 };
