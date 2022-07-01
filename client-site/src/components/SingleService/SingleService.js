@@ -4,18 +4,39 @@ import serviceData from "../../assets/data/services.JSON";
 
 const SingleService = () => {
 	const [singleService, setSingleService] = useState([]);
+	const [singleData, setSingleData] = useState({});
 
-	const { serviceId } = useParams();
+	const { id } = useParams();
 
-	useEffect(() => {}, []);
+	console.log(id);
 
-	console.log(serviceId);
+	useEffect(() => {
+		fetch(serviceData)
+			.then((res) => res.json())
+			.then((data) => setSingleService(data));
+	}, [id]);
+
+	// console.log(singleService);
+
+	// const singleData = singleService.filter((obj) => {
+	// 	if (obj.id === id) {
+	// 		return obj;
+	// 	}
+	// });
+
+	useEffect(() => {
+		const singleData = singleService.find((obj) => obj?.id === 2);
+		setSingleData(singleData);
+	}, [singleService]);
+
+	console.log(singleData);
 
 	return (
 		<>
 			<section id="home" className="bg-white">
 				<div className="container mx-auto px-4 md:px:14 lg:px-24 py-12 md:py-16 lg:py-24">
 					<div className="">
+						<span>{singleData?.name}</span>
 						<h2 className="mb-4 text-4xl tracking-tight font-bold text-gray-900">
 							Designed for business teams like yours
 						</h2>
