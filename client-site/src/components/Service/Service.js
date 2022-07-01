@@ -6,7 +6,7 @@ const Service = (props) => {
 	return (
 		<>
 			<div
-				className="group px-4 py-6 lg:w-1/3 md:w-1/2 w-full single-service transition ease-linear rounded mb-5"
+				className="group hover:bg-white px-4 py-6 lg:w-1/3 md:w-1/2 w-full single-service transition ease-linear rounded mb-5"
 				key={_id}
 			>
 				<HashLink to={`/service/details/${_id}#eng`} smooth>
