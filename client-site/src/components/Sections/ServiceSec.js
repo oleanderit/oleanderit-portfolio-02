@@ -6,7 +6,7 @@ const ServiceSec = () => {
 	const [services, setServices] = useState([]);
 
 	useEffect(() => {
-		const url = `http://localhost:4000/services`;
+		const url = `https://true-syrup-08129.herokuapp.com/services`;
 		fetch(url)
 			.then((res) => res.json())
 			.then((data) => setServices(data.slice(0, 6)));
@@ -25,7 +25,7 @@ const ServiceSec = () => {
 					</div>
 					<div className="flex flex-wrap">
 						{services.map((service) => (
-							<Service key={service._id}  service={service} />
+							<Service key={service._id} service={service} />
 						))}
 					</div>
 					<div className="mt-10 text-center">

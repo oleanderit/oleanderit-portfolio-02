@@ -7,7 +7,7 @@ const SingleProject = () => {
 	const { id } = useParams();
 
 	useEffect(() => {
-		const url = `http://localhost:4000/projects/${id}`;
+		const url = `https://true-syrup-08129.herokuapp.com/projects/${id}`;
 		fetch(url)
 			.then((res) => res.json())
 			.then((data) => setSingleProject(data));

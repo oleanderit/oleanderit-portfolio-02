@@ -7,7 +7,7 @@ const SingleService = () => {
 	const { id } = useParams();
 
 	useEffect(() => {
-		const url = `http://localhost:4000/services/${id}`;
+		const url = `https://true-syrup-08129.herokuapp.com/services/${id}`;
 		fetch(url)
 			.then((res) => res.json())
 			.then((data) => setSingleService(data));
