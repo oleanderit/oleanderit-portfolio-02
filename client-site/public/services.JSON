@@ -1,0 +1,427 @@
+[
+	{
+		"id": 1,
+		"imgUrl": "https://oit.netlify.app/services/s1.png",
+		"name": "Web Design",
+		"desc": "Create a fully customized, professional, mobile-friendly and search engine optimized website to reach your customers more efficiently and build strong relationships with them.",
+		"packages": [
+			{
+				"packageName": "Silver",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "100",
+				"bdtPrice": "8,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 1 developer",
+				"feature04": "Delivery within 7 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 6 months",
+				"feature07": "Free updates: 6 months"
+			},
+			{
+				"packageName": "Gold",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "235",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 10 developer",
+				"feature04": "Delivery within 21 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 24 months",
+				"feature07": "Free updates: 24 months"
+			},
+			{
+				"packageName": "Platinum",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "550",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 20+ developer",
+				"feature04": "Delivery within 3 months",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 36 months",
+				"feature07": "Free updates: 36 months"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"imgUrl": "https://oit.netlify.app/services/s2.png",
+		"name": "Web Development",
+		"desc": "By creating client-centric, customer-centric website solutions that deliver real business results, innovative web developers help brands in an ever-changing digital landscape.",
+		"packages": [
+			{
+				"packageName": "Silver",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "120",
+				"bdtPrice": "8,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 1 developer",
+				"feature04": "Delivery within 7 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 6 months",
+				"feature07": "Free updates: 6 months"
+			},
+			{
+				"packageName": "Gold",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "250",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 10 developer",
+				"feature04": "Delivery within 21 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 24 months",
+				"feature07": "Free updates: 24 months"
+			},
+			{
+				"packageName": "Platinum",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "600",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 20+ developer",
+				"feature04": "Delivery within 3 months",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 36 months",
+				"feature07": "Free updates: 36 months"
+			}
+		]
+	},
+	{
+		"id": 3,
+		"imgUrl": "https://oit.netlify.app/services/s4.png",
+		"name": "Digital Marketing",
+		"desc": "Increase your sales worldwide and lose your competition by promoting your business through social media marketing with our expert staff.",
+		"packages": [
+			{
+				"packageName": "Silver",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "50",
+				"bdtPrice": "8,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 1 developer",
+				"feature04": "Delivery within 7 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 6 months",
+				"feature07": "Free updates: 6 months"
+			},
+			{
+				"packageName": "Gold",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "180",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 10 developer",
+				"feature04": "Delivery within 21 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 24 months",
+				"feature07": "Free updates: 24 months"
+			},
+			{
+				"packageName": "Platinum",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "400",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 20+ developer",
+				"feature04": "Delivery within 3 months",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 36 months",
+				"feature07": "Free updates: 36 months"
+			}
+		]
+	},
+	{
+		"id": 4,
+		"imgUrl": "https://oit.netlify.app/services/s3.png",
+		"name": "Wordpress Website",
+		"desc": "From content creation to admin, there are many areas for site maintenance through updates. These services offer theme changes, site backups and more.",
+		"packages": [
+			{
+				"packageName": "Silver",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "80",
+				"bdtPrice": "8,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 1 developer",
+				"feature04": "Delivery within 7 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 6 months",
+				"feature07": "Free updates: 6 months"
+			},
+			{
+				"packageName": "Gold",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "230",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 10 developer",
+				"feature04": "Delivery within 21 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 24 months",
+				"feature07": "Free updates: 24 months"
+			},
+			{
+				"packageName": "Platinum",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "500",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 20+ developer",
+				"feature04": "Delivery within 3 months",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 36 months",
+				"feature07": "Free updates: 36 months"
+			}
+		]
+	},
+	{
+		"id": 5,
+		"imgUrl": "https://oit.netlify.app/services/s9.png",
+		"name": "Graphic Design",
+		"desc": "Create the most attractive and imaginative designs for your business to visually present your products and services to clients.",
+		"packages": [
+			{
+				"packageName": "Silver",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "89",
+				"bdtPrice": "8,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 1 developer",
+				"feature04": "Delivery within 7 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 6 months",
+				"feature07": "Free updates: 6 months"
+			},
+			{
+				"packageName": "Gold",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "299",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 10 developer",
+				"feature04": "Delivery within 21 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 24 months",
+				"feature07": "Free updates: 24 months"
+			},
+			{
+				"packageName": "Platinum",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "599",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 20+ developer",
+				"feature04": "Delivery within 3 months",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 36 months",
+				"feature07": "Free updates: 36 months"
+			}
+		]
+	},
+	{
+		"id": 6,
+		"imgUrl": "https://oit.netlify.app/services/s6.png",
+		"name": "Apps Development",
+		"desc": "Create sophisticated and maintainable web applications for your business and projects through our expert staff.",
+		"packages": [
+			{
+				"packageName": "Silver",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "200",
+				"bdtPrice": "8,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 1 developer",
+				"feature04": "Delivery within 7 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 6 months",
+				"feature07": "Free updates: 6 months"
+			},
+			{
+				"packageName": "Gold",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "400",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 10 developer",
+				"feature04": "Delivery within 21 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 24 months",
+				"feature07": "Free updates: 24 months"
+			},
+			{
+				"packageName": "Platinum",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "1000",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 20+ developer",
+				"feature04": "Delivery within 3 months",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 36 months",
+				"feature07": "Free updates: 36 months"
+			}
+		]
+	},
+	{
+		"id": 7,
+		"imgUrl": "https://oit.netlify.app/services/s5.png",
+		"name": "SEO",
+		"desc": "Rank your website at the top of any search engine (Google) and improve the quality and quantity of visitors to your website with the use of search engine optimization services.",
+		"packages": [
+			{
+				"packageName": "Silver",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "130",
+				"bdtPrice": "8,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 1 developer",
+				"feature04": "Delivery within 7 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 6 months",
+				"feature07": "Free updates: 6 months"
+			},
+			{
+				"packageName": "Gold",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "275",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 10 developer",
+				"feature04": "Delivery within 21 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 24 months",
+				"feature07": "Free updates: 24 months"
+			},
+			{
+				"packageName": "Platinum",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "600",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 20+ developer",
+				"feature04": "Delivery within 3 months",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 36 months",
+				"feature07": "Free updates: 36 months"
+			}
+		]
+	},
+	{
+		"id": 8,
+		"imgUrl": "https://oit.netlify.app/services/s7.png",
+		"name": "Software Development",
+		"desc": "We will provide you with premier access to emerging technologies through our vast network of industry partners. We're there, for building you the best easy, seamless software and give support.",
+		"packages": [
+			{
+				"packageName": "Silver",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "400",
+				"bdtPrice": "8,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 1 developer",
+				"feature04": "Delivery within 7 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 6 months",
+				"feature07": "Free updates: 6 months"
+			},
+			{
+				"packageName": "Gold",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "1000",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 10 developer",
+				"feature04": "Delivery within 21 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 24 months",
+				"feature07": "Free updates: 24 months"
+			},
+			{
+				"packageName": "Platinum",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "5000+",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 20+ developer",
+				"feature04": "Delivery within 3 months",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 36 months",
+				"feature07": "Free updates: 36 months"
+			}
+		],
+		"badge": "This services is offline now."
+	},
+	{
+		"id": 9,
+		"imgUrl": "https://oit.netlify.app/services/s8.png",
+		"name": "Cyber Security",
+		"desc": "Our cyber security services offer tremendous financial and non-financial value to your organization. At the very least, improving your security stance keeps confidential, classified, and proprietary business content out of the hands of competitors.",
+		"packages": [
+			{
+				"packageName": "Silver",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "320",
+				"bdtPrice": "8,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 1 developer",
+				"feature04": "Delivery within 7 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 6 months",
+				"feature07": "Free updates: 6 months"
+			},
+			{
+				"packageName": "Gold",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "600",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 10 developer",
+				"feature04": "Delivery within 21 days",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 24 months",
+				"feature07": "Free updates: 24 months"
+			},
+			{
+				"packageName": "Platinum",
+				"desc": "Best option for personal use & for your next project.",
+				"usdPrice": "1200",
+				"bdtPrice": "19,999",
+				"feature01": "Individual configuration",
+				"feature02": "No setup, or hidden fees",
+				"feature03": "Team size: 20+ developer",
+				"feature04": "Delivery within 3 months",
+				"feature05": "Unlimited revisions",
+				"feature06": "Premium support: 36 months",
+				"feature07": "Free updates: 36 months"
+			}
+		],
+		"badge": "This services is offline now."
+	}
+]

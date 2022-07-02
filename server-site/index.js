@@ -71,7 +71,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-	res.send("running db");
+	res.send("Database is running");
 });
 
 app.listen(port, () => {

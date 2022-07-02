@@ -7,6 +7,7 @@ const ServiceSec = () => {
 
 	useEffect(() => {
 		const url = `https://true-syrup-08129.herokuapp.com/services`;
+		// const url = `/services.JSON`;
 		fetch(url)
 			.then((res) => res.json())
 			.then((data) => setServices(data.slice(0, 6)));

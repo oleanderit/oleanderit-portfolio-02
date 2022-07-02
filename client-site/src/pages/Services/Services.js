@@ -8,10 +8,13 @@ const Services = () => {
 
 	useEffect(() => {
 		const url = `https://true-syrup-08129.herokuapp.com/services`;
+		// const url = `/services.JSON`;
 		fetch(url)
 			.then((res) => res.json())
 			.then((data) => setServices(data));
-	}, []);
+	}, [services]);
+
+	// console.log(services);
 
 	return (
 		<>
