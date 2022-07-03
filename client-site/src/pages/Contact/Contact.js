@@ -78,7 +78,6 @@ const Contact = () => {
 	return (
 		<>
 			<div id="eng">
-				<FAQs />
 				<div className="container mx-auto px-4 md:px:8 lg:px-12 py-8 md:py-10 lg:py-12">
 					<div className="lg:flex">
 						<div className="xl:w-2/5 lg:w-2/5 bg-indigo-600 py-16 xl:rounded-bl rounded-tl rounded-tr xl:rounded-tr-none">
@@ -241,6 +240,7 @@ const Contact = () => {
 						</div>
 					</div>
 				</div>
+				<FAQs />
 			</div>
 		</>
 	);
