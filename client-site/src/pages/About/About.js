@@ -6,7 +6,7 @@ const About = () => {
 
 	setTimeout(() => {
 		setIsLoading(false);
-	}, 1500);
+	}, 1000);
 
 	return (
 		<>

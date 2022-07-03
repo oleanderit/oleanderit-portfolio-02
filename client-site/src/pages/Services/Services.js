@@ -16,7 +16,7 @@ const Services = () => {
 				setServices(data);
 				setIsLoading(false);
 			});
-	}, [services]);
+	}, []);
 
 	// console.log(services);
 
