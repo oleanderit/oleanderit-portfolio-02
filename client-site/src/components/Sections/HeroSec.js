@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Modal from "../Extra/Modal";
+// import Modal from "../Extra/Modal";
 import Slider from "react-slick";
 import banner01 from "../../assets/images/banner/1.png";
 import banner02 from "../../assets/images/banner/2.png";
@@ -99,13 +99,17 @@ const HeroSec = () => {
 										>
 											Explore more
 										</Link>
-										<div>
+										{/* <div>
 											<Modal />
-										</div>
+										</div> */}
 									</div>
 								</div>
 								<div className="ml-auto p-10">
-									<img className="rounded-full" src={data.img} alt={data.titleSlice02} />
+									<img
+										className="rounded-full"
+										src={data.img}
+										alt={data.titleSlice02}
+									/>
 								</div>
 							</div>
 						</div>

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { HashLink } from "react-router-hash-link";
+import Logo from "../../assets/images/logo.png";
 
 const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ const Navbar = () => {
 				<div className="container px-4 md:px:6 lg:px-8 py-3 mx-auto">
 					<div className="relative flex items-center justify-between">
 						<HashLink smooth to="/#eng" className="inline-flex items-center">
-							<span className="text-blue-600 text-2xl">Oleander IT</span>
+							<img className="h-10 w-full" src={Logo} alt="Logo" />
 						</HashLink>
 						<ul className="flex items-center hidden space-x-8 lg:flex gap-4">
 							<li>
@@ -125,9 +126,7 @@ const Navbar = () => {
 													to="/#eng"
 													className="inline-flex items-center"
 												>
-													<span className="text-blue-600 text-2xl">
-														Oleander IT
-													</span>
+													<img className="h-8 w-full" src={Logo} alt="Logo" />
 												</HashLink>
 											</div>
 											<div>

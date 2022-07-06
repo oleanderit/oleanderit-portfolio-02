@@ -131,7 +131,7 @@ const Contact = () => {
 											<polyline points="3 7 12 13 21 7" />
 										</svg>
 									</div>
-									<p className="pl-4 text-white text-base">example@email.com</p>
+									<p className="pl-4 text-white text-base">info.oleanderit@gmail.com</p>
 								</div>
 								<p className="text-base text-white pt-10 tracking-wide">
 									545, Street 11, Block F <br />
