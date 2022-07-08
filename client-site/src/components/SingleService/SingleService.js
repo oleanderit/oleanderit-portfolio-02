@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import Spinner from "../Extra/Spinner";
 import SingleServiceCard from "./SingleServiceCard";
 
 const SingleService = () => {
@@ -42,10 +43,10 @@ const SingleService = () => {
 	return (
 		<>
 			<section id="eng" className="bg-white">
-				<div className="container mx-auto px-4 md:px:14 lg:px-24 py-12 md:py-16 lg:py-24">
+				<div className="container mx-auto px-4 md:px:14 lg:px-24 pt-20 md:pt-20 lg:pt-20 lg:pb-8">
 					{/* spinner */}
 					{isLoading && (
-						<div className="h-[70vh] flex justify-center items-center">
+						<div className="flex justify-center items-center h-[80vh]">
 							<svg
 								role="status"
 								class="inline w-8 h-8 mr-2 text-gray-200 animate-spin fill-indigo-500"

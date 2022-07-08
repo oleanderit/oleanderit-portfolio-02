@@ -5,43 +5,43 @@ import banner01 from "../../assets/images/banner/1.png";
 import banner02 from "../../assets/images/banner/2.png";
 
 const HeroSec = () => {
-	function SampleNextArrow(props) {
-		const { className, style, onClick } = props;
-		return (
-			<div
-				className={className}
-				style={{
-					...style,
-					display: "block",
-					padding: "3px",
-					// backgroundColor: "#5850ec",
-					height: "25px",
-					width: "25px",
-					borderRadius: "50%",
-				}}
-				onClick={onClick}
-			/>
-		);
-	}
+	// function SampleNextArrow(props) {
+	// 	const { className, style, onClick } = props;
+	// 	return (
+	// 		<div
+	// 			className={className}
+	// 			style={{
+	// 				...style,
+	// 				display: "block",
+	// 				padding: "3px",
+	// 				// backgroundColor: "#5850ec",
+	// 				height: "25px",
+	// 				width: "25px",
+	// 				borderRadius: "50%",
+	// 			}}
+	// 			onClick={onClick}
+	// 		/>
+	// 	);
+	// }
 
-	function SamplePrevArrow(props) {
-		const { className, style, onClick } = props;
-		return (
-			<div
-				className={className}
-				style={{
-					...style,
-					display: "block",
-					padding: "3px",
-					// backgroundColor: "#5850ec",
-					height: "25px",
-					width: "25px",
-					borderRadius: "50%",
-				}}
-				onClick={onClick}
-			/>
-		);
-	}
+	// function SamplePrevArrow(props) {
+	// 	const { className, style, onClick } = props;
+	// 	return (
+	// 		<div
+	// 			className={className}
+	// 			style={{
+	// 				...style,
+	// 				display: "block",
+	// 				padding: "3px",
+	// 				// backgroundColor: "#5850ec",
+	// 				height: "25px",
+	// 				width: "25px",
+	// 				borderRadius: "50%",
+	// 			}}
+	// 			onClick={onClick}
+	// 		/>
+	// 	);
+	// }
 
 	const settings = {
 		dots: false,
@@ -79,8 +79,8 @@ const HeroSec = () => {
 	];
 
 	return (
-		<div className="h-screen flex justify-between items-center bg-indigo-300">
-			<div className="container mx-auto px-4 md:px:10 lg:px-16 py-12 md:py-16 lg:py-16">
+		<div className="h-screen flex justify-between items-center bg-white">
+			<div className="container mx-auto px-4 md:px:14 lg:px-24 pt-20 md:pt-20 lg:pt-20 lg:pb-8">
 				<Slider {...settings}>
 					{bannerData.map((data, index) => (
 						<div key={index + data.id}>

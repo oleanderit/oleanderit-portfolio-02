@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import Spinner from "../../components/Extra/Spinner";
 import Service from "../../components/Service/Service";
 
 const Services = () => {
@@ -24,7 +25,7 @@ const Services = () => {
 		<>
 			<div
 				id="eng"
-				className="container mx-auto px-4 md:px:14 lg:px-24 py-12 md:py-16 lg:pt-20 lg:pb-8"
+				className="container mx-auto px-4 md:px:14 lg:px-24 pt-20 md:pt-20 lg:pt-20 lg:pb-8"
 			>
 				{isLoading && (
 					<div className="flex justify-center items-center h-[80vh]">

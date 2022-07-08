@@ -7,7 +7,7 @@ const Navbar = () => {
 
 	return (
 		<>
-			<div className="w-full fixed z-50 bg-gray-50 shadow">
+			<div className="w-full fixed z-50 bg-white shadow">
 				<div className="container px-4 md:px:6 lg:px-8 py-3 mx-auto">
 					<div className="relative flex items-center justify-between">
 						<HashLink smooth to="/#eng" className="inline-flex items-center">

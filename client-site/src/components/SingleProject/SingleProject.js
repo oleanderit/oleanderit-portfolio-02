@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Spinner from "../Extra/Spinner";
 
 const SingleProject = () => {
 	const [singleProject, setSingleProject] = useState([]);
@@ -21,13 +22,13 @@ const SingleProject = () => {
 		<>
 			<div
 				id="eng"
-				className="container mx-auto px-4 md:px:14 lg:px-24 pt-12 md:pt-16 lg:pt-24"
+				className="container mx-auto px-4 md:px:14 lg:px-24 pt-20 md:pt-20 lg:pt-20 lg:pb-8"
 			>
 				{isLoading && (
-					<div className="h-screen flex justify-center items-center">
+					<div className="flex justify-center items-center h-[80vh]">
 						<svg
 							role="status"
-							class="inline w-10 h-10 mr-2 text-gray-200 animate-spin fill-indigo-500"
+							class="inline w-8 h-8 mr-2 text-gray-200 animate-spin fill-indigo-500"
 							viewBox="0 0 100 101"
 							fill="none"
 							xmlns="http://www.w3.org/2000/svg"

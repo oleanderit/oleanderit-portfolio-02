@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Spinner from "../Extra/Spinner";
 import Service from "../Service/Service";
 
 const ServiceSec = () => {
@@ -29,7 +30,7 @@ const ServiceSec = () => {
 						</h1>
 					</div>
 					{isLoading && (
-						<div className="flex justify-center items-center">
+						<div className="flex justify-center items-center h-[80vh]">
 							<svg
 								role="status"
 								class="inline w-8 h-8 mr-2 text-gray-200 animate-spin fill-indigo-500"

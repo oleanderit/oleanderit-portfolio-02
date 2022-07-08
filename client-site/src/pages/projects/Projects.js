@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Spinner from "../../components/Extra/Spinner";
 import ProjectsCard from "../../components/ProjectsCard/ProjectsCard";
 
 const Projects = () => {
@@ -23,7 +24,7 @@ const Projects = () => {
 		<>
 			<div id="eng" className="bg-slate-50">
 				{isLoading && (
-					<div className="h-screen flex justify-center items-center">
+					<div className="flex justify-center items-center h-[80vh]">
 						<svg
 							role="status"
 							class="inline w-8 h-8 mr-2 text-gray-200 animate-spin fill-indigo-500"
@@ -44,7 +45,7 @@ const Projects = () => {
 				)}
 				{!isLoading && (
 					<>
-						<div className="container mx-auto px-4 md:px:14 lg:px-24 pt-8 md:pt-10 lg:pt-12">
+						<div className="container mx-auto px-4 md:px:14 lg:px-24 pt-20 md:pt-20 lg:pt-20 lg:pb-8">
 							<div className="text-center mt-10">
 								<p className="text-xl">Projects</p>
 								<h1 className="text-lg md:text-xl lg:text-3xl font-extrabold mt-2">
